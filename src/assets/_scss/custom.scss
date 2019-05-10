@@ -1,0 +1,8 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Crimson Text', serif;
+}
+
+/* This is necessary to not mess up share icons at bottom of posts */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "casper-icons", "Crimson Text", serif;
+}
